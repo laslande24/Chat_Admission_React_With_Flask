@@ -1,0 +1,702 @@
+{
+   "intents": [
+      {
+         "tag": "creator",
+         "patterns": [
+            "what are the name of your developers",
+            "what are the name of your creators",
+            "who created you",
+            "your developers",
+            "your creators",
+            "who are your developers",
+            "developers",
+            "you are made by",
+            "you are made by whom",
+            "who created you",
+            "who create you",
+            "who created u",
+            "creators",
+            "who made you",
+            "who designed you",
+            "Who are responsible for your existence?",
+            "Who brought you to life?",
+            "Who invented you?",
+            "Who programmed you?",
+            "Who built you?",
+            "Who are the mastermind behind your creation?",
+            "Who are behind your development?",
+            "Who are the brains behind you?",
+            "Who are the genius that made you?",
+            "Who are the people that created you?",
+            "Who are your inventors?",
+            "Who is your maker?",
+            "Who are your designers?",
+            "Who are your developers?",
+            "Who are your architects?",
+            "Who is the mind behind your creation?"
+         ],
+         "responses": [
+            "Romaric Laslande is my creator",
+            "I was created by an IUC student named Romaric Laslande",
+            "My designer is name Romaric Laslande. He is a soon graduated Bachelor student from Institut Universitaire de la Cote (IUC)",
+            "I have been invented by a soon graduated Bachelor student from Institut Universitaire de la Cote (IUC) name Romaric Laslande ",
+            "My programme was writtent by a soon graduated Bachelor student from Institut Universitaire de la Cote (IUC) name Romaric Laslande "
+         ]
+      },
+      {
+         "tag": "feedback",
+         "patterns": [
+            "feedback",
+            "how to give feedback",
+            "how to give feedback to you",
+            "how to give feedback to your developers",
+            "how to give feedback to your creators",
+            "feedback form",
+            "feedback form link",
+            "feedback form link for you",
+            "feedback form link for your developers",
+            "how can I give you feedback",
+            "how can I give feedback to you",
+            "how can I give feedback to your developers",
+            "feedback",
+            "review",
+            "how to give review",
+            "how to give review to you"
+         ],
+         "responses": [
+            "You can give feedback by clicking on the <a target=\"blank\" href=\"#\">feedback form</a> here."
+         ]
+      },
+      {
+         "tag": "no",
+         "patterns": [
+            "no",
+            "yes"
+         ],
+         "responses": [
+            "well...be more specific so that i can help you."
+         ]
+      },
+      {
+         "tag": "gender",
+         "patterns": [
+            "what is your gender",
+            "whats ur  gender",
+            "are you a boy",
+            "are u a boy",
+            "are you a girl",
+            "are u a girl",
+            "gender?",
+            "boy?",
+            "girl",
+            "ur gender",
+            "your gender",
+            "how are u identified as",
+            "hw r u identified as",
+            "what about  ur gender",
+            "what  about your gender"
+         ],
+         "responses": [
+            "Well! I am an AI, i dont have any gender.I am neutral."
+         ]
+      },
+      {
+         "tag": "name",
+         "patterns": [
+            "name",
+            "your name",
+            "do you have a name",
+            "what are you called",
+            "what is your name",
+            "what should I call you",
+            "whats your name?",
+            "what are you",
+            "who are you",
+            "who is this",
+            "what am i chatting to",
+            "who am i taking to",
+            "what are you",
+            "How may I address you",
+            "Can you introduce yourself",
+            "Tell me about yourself",
+            "What is your real name?",
+            "What is your real name please?",
+            "What's your real name?",
+            "Tell me your real name?",
+            "Your real name?",
+            "Your real name please?",
+            "Your real name please?",
+            "Who are you"
+         ],
+         "responses": [
+            "You can call me RL for RoboLexicon.",
+            "I'm RL for RoboLexicon",
+            "I am a RL for RoboLexicon",
+            "I am your helper,RL for RoboLexicon",
+            "hello,you can call me RL for RoboLexicon,how can i help you?",
+            "hello,my name is RL for RoboLexicon,what can i do for you?",
+            "hello,my name is RL for RoboLexicon,how may i help you?",
+            "hello,i am RL for RoboLexicon,how may i help you?",
+            "My name is RL for RoboLexicon",
+            "RL for RoboLexicon",
+            "My real name is RL for RoboLexicon"
+         ]
+      },
+      {
+         "tag": "name_meaning",
+         "patterns": [
+            "what does your name means?",
+            "Tell me more about that your name",
+            "I don't understand your name",
+            "give me a small explantion of your name",
+            "Your name does look chatbot like"
+         ],
+         "responses": [
+            "This name means I possesses an extensive knowledge of language and vocabulary, capable of understanding and generating complex responses.",
+            "By having this name, it signifies that I possess an abundant knowledge of language and vocabulary, enabling me to grasp and generate sophisticated responses.",
+            "This name implies that I have an extensive understanding of language and a vast vocabulary, enabling me to comprehend and produce intricate responses.",
+            "Having this name suggests that I am well-versed in language and possess a broad lexicon, allowing me to comprehend and generate intricate and elaborate responses."
+         ]
+      },
+      {
+         "tag": "about_IUC",
+         "patterns": [
+            "Do you know institut universitaire de la cote?",
+            "Are you familiar with Institut Universitaire de la Côte?",
+            "Have you heard about Institut Universitaire de la Côte?",
+            "What do you know about Institut Universitaire de la Côte?",
+            "Can you provide details about Institut Universitaire de la Côte?",
+            "Tell me more about Institut Universitaire de la Côte."
+         ],
+         "responses": [
+            "Yes, I found some information about Institut Universitaire de la Côte (IUC). It is a private higher education institution in Cameroon that provides intellectual and human training for Cameroonian and foreign students in the fields of business, industry and technology. The institution offers programs such as: <br /> <ul> <li>Brevet de Technicien Supérieur</li> <li>Licence Professionnelle</li> <li>Master and Ingénieur</li> </ul>",
+            "Indeed, I am acquainted with Institut Universitaire de la Côte (IUC). It is a prestigious educational establishment located in Cameroon. The institute specializes in offering comprehensive training and education in various disciplines, focusing on business, industry, and technology. Students, both from Cameroon and abroad, can pursue programs such as: <br /> <ul> <li>Brevet de Technicien Supérieur</li> <li>Licence Professionnelle</li> <li>Master and Ingénieur</li> </ul>",
+            "Absolutely! Institut Universitaire de la Côte (IUC) has come to my attention. It is a remarkable private higher education institution situated in Cameroon. IUC's primary objective is to provide intellectual and practical knowledge to Cameroonian and international students in the fields of business, industry, and technology. The institute offers an array of programs, including <br /> <ul> <li>Brevet de Technicien Supérieur</li> <li>Licence Professionnelle</li> <li>Master and Ingénieur</li> </ul>",
+            "I possess valuable information about Institut Universitaire de la Côte (IUC). It is an esteemed private educational institution nestled in the beautiful country of Cameroon. The institute is dedicated to nurturing the intellectual and professional growth of both local and international students, with a strong emphasis on business, industry, and technology. At IUC, students can enroll in programs such as: <br /> <ul> <li>Brevet de Technicien Supérieur</li> <li>Licence Professionnelle</li> <li>Master and Ingénieur</li> </ul>",
+            "Certainly! Institut Universitaire de la Côte (IUC) is a renowned private higher education establishment operating in Cameroon. It serves as a hub for intellectual and human development, offering comprehensive educational opportunities to Cameroonian and foreign students. The institution's curriculum focuses on the domains of business, industry, and technology, providing programs like<ul><li>Brevet de Technicien Supérieur</li> <li>Licence Professionnelle</li> <li>Master and Ingénieur</li> </ul>",
+            "I'd be delighted to share additional information about Institut Universitaire de la Côte (IUC). Situated in Cameroon, IUC is a distinguished private institution that is committed to empowering students through quality education. The institute specializes in business, industry, and technology, delivering a diverse range of programs including <br /> <ul> <li>Brevet de Technicien Supérieur</li> <li>Licence Professionnelle</li> <li>Master and Ingénieur</li> </ul> <br /> to cater to the academic aspirations of Cameroonian and international learners."
+         ]
+      },
+      {
+         "tag": "IUC_location",
+         "patterns": [
+            "Do you know where Institut Universitaire de la Côte (IUC) is located?",
+            "Where is Institut Universitaire de la Côte (IUC) situated?",
+            "In which location is Institut Universitaire de la Côte (IUC) located?",
+            "What is the location of Institut Universitaire de la Côte (IUC)?",
+            "Where can I find Institut Universitaire de la Côte (IUC)?",
+            "Do you have any information on the location of Institut Universitaire de la Côte (IUC)?",
+            "I'm curious about the whereabouts of Institut Universitaire de la Côte (IUC). Can you help?",
+            "Could you tell me the specific location of Institut Universitaire de la Côte (IUC)?",
+            "I'm trying to locate Institut Universitaire de la Côte (IUC). Any idea where it is?",
+            "I'm interested in knowing the precise whereabouts of Institut Universitaire de la Côte (IUC).",
+            "Is there a particular place where I can find Institut Universitaire de la Côte (IUC)?",
+            "I'm looking for information on the whereabouts of Institut Universitaire de la Côte (IUC).",
+            "Can you provide me with the location details of Institut Universitaire de la Côte (IUC)?",
+            "I need to know the exact location of Institut Universitaire de la Côte (IUC). Can you assist?",
+            "Where exactly can I locate Institut Universitaire de la Côte (IUC)?"
+         ],
+         "responses": [
+            "The Institut Universitaire de la Côte, located in Douala, has two main campuses: the main campus, in LOGBESSOU, far from the hustle and bustle of the city, is divided into three campuses A, B, and C. The second campus is in the heart of the business district, in AKWA, close to the students and workers in the area.",
+            "IUC is situated in Douala. It has two main campuses. The main campus is located in LOGBESSOU, far from the busy city, and is divided into three campuses: A, B, and C. The second campus is in AKWA, in the heart of the business district, close to the students and workers in that area.",
+            "IUC is located in Douala. It has two main campuses. The main campus is in LOGBESSOU, far from the city's hustle and bustle, and is divided into three campuses: A, B, and C. The second campus is in AKWA, in the center of the business district, near the students and workers in that area.",
+            "The Institut Universitaire de la Côte, located in Douala, has two main campuses: the main campus, in LOGBESSOU, far from the city's hustle and bustle, is divided into three campuses A, B, and C. The second campus is in the heart of the business district, in AKWA, close to the students and workers in the area.",
+            "IUC can be found in Douala. It has two main campuses. The main campus is located in LOGBESSOU, far from the busy town, and is divided into three campuses: A, B, and C. The second campus is in AKWA, in the business district, and is close to the students and workers in that area.",
+            "The Institut Universitaire de la Côte, located in Douala, has two main campuses: the main campus, in LOGBESSOU, far from the hustle and bustle of the city, is divided into three campuses A, B, and C. The second campus is in the heart of the business district, in AKWA, close to the students and workers in the area.",
+            "The Institut Universitaire de la Côte, situated in Douala, encompasses two primary campuses: the main campus, situated in LOGBESSOU, distanced from the commotion of the urban center, is subdivided into three campuses A, B, and C. The secondary campus is nestled within the core of the commercial district, in AKWA, conveniently accessible to the students and professionals in its vicinity.",
+            "IUC, which can be found in Douala, boasts of dual primary campuses. The main campus, situated in LOGBESSOU, is deliberately positioned away from the bustling metropolis, and it is further segmented into three distinctive campuses, namely A, B, and C. As for the secondary campus, it is strategically located in AKWA, right at the heart of the thriving business district, ensuring easy accessibility for students and the working populace residing nearby.",
+            "The main hub of the Institut Universitaire de la Côte, located in Douala, comprises two major campuses. The primary campus, based in LOGBESSOU, is deliberately situated far from the chaotic urban environment, allowing for a serene academic atmosphere across its three distinct campuses, namely A, B, and C. On the other hand, the secondary campus thrives in AKWA, nestled within the vibrant business district, fostering close proximity to both students and professionals in the vicinity.",
+            "Douala is home to the Institut Universitaire de la Côte (IUC), which boasts two primary campuses. The main campus, situated in LOGBESSOU, offers an escape from the frenetic pace of the city, with its three campuses A, B, and C. Meanwhile, the second campus flourishes in AKWA, at the very core of the bustling business district, catering conveniently to the needs of students and workers in the area."
+         ]
+      },
+      {
+         "tag": "IUC_campuses",
+         "patterns": [
+            "How many campuses does IUC have?",
+            "How many campuses does IUC possess?",
+            "IUC have how many campuses ?",
+            "IUC possess how many campuses does ?"
+         ],
+         "responses": [
+            "IUC possesses 2 campuses. The main campus is located in Logbessou, Douala 5, and the second campus is located in Akwa, behind College De la Salle.",
+            "IUC possesses 2 campuses, with the main campus situated in Logbessou, Douala 5, and the second campus located behind College De la Salle in Akwa.",
+            "IUC is equipped with 2 campuses, with the main campus positioned in Logbessou, Douala 5, and the second campus situated behind College De la Salle in Akwa.",
+            "IUC has 2 campuses. The main campus is located in Logbessou, Douala 5, and the second campus is located in Akwa, behind College De la Salle."
+         ]
+      },
+      {
+         "tag": "Campus1_location",
+         "patterns": [
+            "Where is IUC Campus 1 located?",
+            "In which place is IUC Campus 1 situated?",
+            "In which area is IUC Campus 1 located?",
+            "Where is IUC Campus 1 situated?"
+         ],
+         "responses": [
+            "IUC Campus 1 is located in Logbessou, Douala 5",
+            "IUC Campus 1 finds its location in Logbessou, Douala 5.",
+            "The first campus of IUC is positioned in Logbessou, Douala 5.",
+            "Logbessou, Douala 5 is the site of IUC Campus 1.",
+            "Situated in Logbessou, Douala 5, IUC Campus 1 stands strong.",
+            "IUC Campus 1 proudly resides in Logbessou, Douala 5."
+         ]
+      },
+      {
+         "tag": "Campus2_location",
+         "patterns": [
+            "Where is IUC Campus 2 located?",
+            "In which place is IUC Campus 2 situated?",
+            "In which area is IUC Campus 2 located?",
+            "Where is IUC Campus 2 situated?"
+         ],
+         "responses": [
+            "IUC Campus 2 is located in Akwa, facing the MTN technical direction, behind De la Salle.",
+            "IUC Campus 2 finds its location in Akwa, facing the MTN technical direction, behind De la Salle.",
+            "The first campus of IUC is positioned in Akwa, facing the MTN technical direction, behind De la Salle.",
+            "In Akwa, facing the MTN technical direction, behind De la Salle is the site of IUC Campus 1.",
+            "Situated in Akwa, facing the MTN technical direction, behind De la Salle, IUC Campus 1 stands strong.",
+            "IUC Campus 2 proudly resides in Akwa, facing the MTN technical direction, behind De la Salle."
+         ]
+      },
+      {
+         "tag": "IUC_offices_opening",
+         "patterns": [
+            "When do IUC offices open?",
+            "What are the opening hours of IUC offices?",
+            "At what time do IUC offices open?",
+            "When are the IUC offices open?",
+            "When do the IUC offices open?"
+         ],
+         "responses": [
+            "They open from 8:00am to 5:00pm from Monday to Friday and from 8:00am to 12:00pm on Saturdays.",
+            "The offices are open from 8:00am to 5:00pm from Monday to Friday and from 8:00am to 12:00pm on Saturdays.",
+            "They open at 8:00am and close at 5:00pm from Monday to Friday and from 8:00am to 12:00pm on Saturdays."
+         ]
+      },
+      {
+         "tag": "IUC_enroll",
+         "patterns": [
+            "How can I enroll or gain admission to IUC?",
+            "What are the steps to enter or secure admission at IUC?",
+            "Can you explain how to get admitted or accepted into IUC?",
+            "What is the process for entering or being admitted to IUC?",
+            "How can one go about enrolling or gaining admission to IUC?",
+            "What steps need to be taken to enter or secure admission at IUC?",
+            "Could you provide an explanation of the process for getting admitted or accepted into IUC?",
+            "What are the procedures involved in entering or being admitted to IUC?",
+            "I'm interested to know the steps required for enrollment or admission into IUC"
+         ],
+         "responses": [
+            "The process of gaining admission to IUC typically involves several steps. Firstly, you need to pass a competitive examination. Additionally, depending on your academic background and chosen field of study, there might be a review of your application documents and an interview. It's important to note that the minimum requirement for application is the Baccalauréat or GCE Advanced Level. The admission requirements are generally consistent across all programs.",
+            "Admission to the IUC primarily involves a competitive examination, and depending on the student's academic level and area of specialization, there might also be a file review and an interview. The minimum qualification required for application is the Baccalauréat or GCE Advanced Level. The admission criteria are similar for all programs.",
+            "To secure admission to IUC, it is necessary to follow a specific procedure. Firstly, you must successfully pass a competitive examination. Furthermore, depending on your academic level and area of expertise, there may be a review of your application materials and an interview. It's important to meet the minimum requirement of having completed the Baccalauréat or GCE Advanced Level. The admission criteria are fairly standardized across all programs.",
+            "The process of gaining admission to IUC involves several stages. Initially, you must undergo a competitive examination. Additionally, based on your academic background and chosen specialization, there may be a review of your application documents and an interview. It's essential to fulfill the minimum requirement of having completed the Baccalauréat or GCE Advanced Level. The admission requirements remain largely consistent across all programs."
+         ]
+      },
+      {
+         "tag": "entrance_exam_date",
+         "patterns": [
+            "When is the entrance exam or concour for this year?",
+            "Could you please let me know the schedule for the entrance exam or concour this year?"
+         ],
+         "responses": [
+            "I apologize for any confusion, but as an AI language model, I don't have access to real-time information or specific websites. However, you can find information about the entrance exam or concour for this year by visiting the following link: <a'https://myiuc.com/concours-examens/'>IUC website</a> ",
+            "I regret to inform you that I don't have access to the specific schedule for the entrance exam or concour this year. My capabilities are limited to providing general information and generating text. To find the schedule, I recommend visiting the official <a'https://myiuc.com/concours-examens/'>IUC website</a> or contacting the relevant authorities responsible for organizing the exam"
+         ]
+      },
+      {
+         "tag": "entrance_exam_information",
+         "patterns": [
+            "I'm interested in applying for the entrance exam or concour. Can you provide details about the registration process?",
+            "Is there any study material available for the entrance exam or concour preparation?"
+         ],
+         "responses": [
+            "I'm sorry, but I don't have the ability to provide specific details about the registration process for the entrance exam or concour. To obtain accurate and up-to-date information, I suggest visiting the official website or contacting the organizing body directly. They will be able to guide you through the registration process and provide any necessary instructions.",
+            "While I don't have access to specific study materials for the entrance exam or concour, there are usually various resources available to help candidates prepare. You can try searching online for study guides, practice exams, or recommended textbooks related to the exam you are interested in. Additionally, consider reaching out to individuals who have previously taken the exam or consulting with teachers or mentors who may have valuable insights and recommendations."
+         ]
+      },
+      {
+         "tag": "entrance_exam_date",
+         "patterns": [
+            "I'm interested in applying for the entrance exam or concour. Can you provide details about the registration process?",
+            "Is there any study material available for the entrance exam or concour preparation?"
+         ],
+         "responses": [
+            "I'm sorry, but I don't have the ability to provide specific details about the registration process for the entrance exam or concour. To obtain accurate and up-to-date information, I suggest visiting the official website or contacting the organizing body directly. They will be able to guide you through the registration process and provide any necessary instructions.",
+            "While I don't have access to specific study materials for the entrance exam or concour, there are usually various resources available to help candidates prepare. You can try searching online for study guides, practice exams, or recommended textbooks related to the exam you are interested in. Additionally, consider reaching out to individuals who have previously taken the exam or consulting with teachers or mentors who may have valuable insights and recommendations."
+         ]
+      },
+      {
+         "tag": "entrance_exam_criteria_eligibility",
+         "patterns": [
+            "Are there any eligibility criteria for the entrance exam or concour?",
+            "Are there specific requirements one must meet for the entrance exam or concour?",
+            "Could you tell me if there are any prerequisites for the entrance exam or concour?",
+            "What are the eligibility criteria for the entrance exam or concour?",
+            "I'd like to know if there are any conditions that need to be fulfilled for the entrance exam or concour?",
+            "Are there any specific qualifications needed for the entrance exam or concour?",
+            "Could you provide information on the requirements for the entrance exam or concour?",
+            "What prerequisites do I need to fulfill for the entrance exam or concour?",
+            "I'm curious about the eligibility criteria for the entrance exam or concour. Could you enlighten me?",
+            "Are there any particular standards that applicants must meet for the entrance exam or concour?",
+            "In order to participate in the entrance exam or concour, are there any eligibility criteria that need to be satisfied?",
+            "Can you please clarify if there are any specific conditions for the entrance exam or concour?",
+            "What are the necessary qualifications for the entrance exam or concour?",
+            "I'm interested to know if there are any prerequisites or qualifications required for the entrance exam or concour.",
+            "Could you shed some light on the eligibility requirements for the entrance exam or concour?",
+            "In order to be eligible for the entrance exam or concour, are there any specific criteria to be met?",
+            "Can you provide details regarding the eligibility criteria for the entrance exam or concour?",
+            "What are the prerequisites for the entrance exam or concour?",
+            "I'd like to inquire about the eligibility criteria for the entrance exam or concour. Can you assist me with that?",
+            "Are there any predetermined conditions for the entrance exam or concour?",
+            "Could you please outline the requirements for the entrance exam or concour?",
+            "I'm curious to know if there are any specific demands for the entrance exam or concour.",
+            "Can you clarify whether there are any eligibility criteria for the entrance exam or concour?"
+         ],
+         "responses": [
+            "Eligibility criteria for the entrance exam or concour can differ based on the particular examination and the administering institution or organization.<br/>To ascertain the eligibility requirements, it is advisable to consult the official documentation of the exam or get in touch with the relevant authorities. They will be able to furnish you with precise details regarding the criteria that must be fulfilled to qualify for the exam.",
+            "The eligibility criteria for the entrance exam or concour may vary depending on the specific exam and the entity overseeing it.<br/>To determine the necessary requirements, it is recommended to refer to the official exam documentation or reach out to the appropriate authorities. They will be able to provide you with accurate information regarding the criteria you need to fulfill in order to be eligible for the exam.",
+            "When it comes to the entrance exam or concour, the eligibility criteria can differ based on the exam itself and the organization responsible for its administration.<br/>To find out the specific requirements, it is advisable to consult the official exam documentation or contact the relevant authorities. They will be able to provide you with precise details about the criteria that must be met to qualify for the exam.",
+            "The entrance exam or concour may have varying eligibility criteria depending on the exam and the institution or organization conducting it.<br/>To determine the specific requirements, it is best to consult the official documentation of the exam or get in touch with the relevant authorities. They will be able to give you accurate information about the criteria you need to satisfy in order to be eligible for the exam.",
+            "Eligibility criteria for the entrance exam or concour can differ from one exam to another and are typically set by the administering institution or organization.<br/>To find out the exact requirements, it is recommended to refer to the official exam documentation or contact the relevant authorities. They will be able to provide you with precise information regarding the criteria you must fulfill in order to be eligible for the exam.",
+            "The eligibility criteria for the entrance exam or concour can vary depending on the specific exam and the governing body responsible for its conduct.<br/> To determine the eligibility requirements, it is advisable to review the official exam documentation or reach out to the appropriate authorities. They will be able to offer you accurate details regarding the criteria you need to meet in order to be eligible for the exam.",
+            "Eligibility criteria for the entrance exam or concour may differ based on the nature of the exam and the institution or organization overseeing it.<br/>To ascertain the eligibility requirements, it is recommended to consult the official exam documentation or contact the relevant authorities. They will be able to provide you with precise information regarding the criteria you need to fulfill to be considered eligible for the exam.",
+            "When it comes to the entrance exam or concour, the eligibility criteria can vary depending on the specific exam and the administering body.<br/>To determine the eligibility requirements, it is best to refer to the official exam documentation or reach out to the relevant authorities. They will be able to provide you with accurate information regarding the criteria you need to meet in order to be eligible for the exam.",
+            "The eligibility criteria for the entrance exam or concour can differ depending on the particular exam and the organization overseeing it.<br/>To determine the specific requirements, it is advisable to consult the official exam documentation or contact the relevant authorities. They will be able to provide you with precise details regarding the criteria you need to fulfill in order to be eligible for the exam.",
+            "Eligibility criteria for the entrance exam or concour may vary based on the specific exam and the governing institution or organization.<br/>TTo find out the eligibility requirements, it is recommended to refer to the official exam documentation or get in touch with the relevant authorities. They will be able to give you accurate information about the criteria you need to meet in order to be eligible for the exam."
+         ]
+      },
+      {
+         "tag": "entrance_exam_tips",
+         "patterns": [
+            "Can you suggest any tips for preparing effectively for the entrance exam or concour?",
+            "What are some effective strategies for preparing for the entrance exam or concour?",
+            "I'm looking for advice on how to prepare effectively for the entrance exam or concour. Any tips?",
+            "Do you have any recommendations or techniques for preparing for the entrance exam or concour?",
+            "I would appreciate some guidance on how to prepare effectively for the entrance exam or concour. Any suggestions?",
+            "What strategies or methods do you suggest for effective preparation for the entrance exam or concour?",
+            "Could you provide me with some tips or suggestions on how to prepare efficiently for the entrance exam or concour?",
+            "I'm seeking advice on how to effectively prepare for the entrance exam or concour. Do you have any tips to share?",
+            "What are some practical tips or techniques for preparing well for the entrance exam or concour?",
+            "I'm interested in knowing your suggestions or tips for preparing effectively for the entrance exam or concour."
+         ],
+         "responses": [
+            "While I can't provide personalized tips, there are some general strategies that can help with exam preparation. It's important to create a study schedule, break down the syllabus into manageable sections, and allocate sufficient time for revision. Practice solving sample questions or previous exam papers to familiarize yourself with the format and improve your time management skills. Additionally, maintaining a healthy lifestyle, getting enough rest, and staying motivated can contribute to your overall preparation. Remember, everyone's study methods may vary, so find what works best for you."
+         ]
+      },
+      {
+         "tag": "entrance_exam_subject_covered",
+         "patterns": [
+            "What are the subjects covered in the entrance exam or concour?",
+            "Could you kindly inform me about the subjects included in the entrance exam or concour?",
+            "I would appreciate it if you could provide me with the details regarding the subjects covered in the entrance exam or concour.",
+            "May I inquire about the specific subjects that are part of the entrance exam or concour?",
+            "Would you be able to share the information regarding the subjects encompassed in the entrance exam or concour?",
+            "I humbly request you to furnish me with the subjects that are included in the entrance exam or concour.",
+            "Could you please enlighten me on the subjects that form part of the entrance exam or concour?",
+            "Do you happen to know the subjects they cover in the entrance exam or concour?",
+            "I'm curious, what subjects do they grill you on in the entrance exam or concour?",
+            "Any idea what subjects they throw at you in the entrance exam or concour?",
+            "Mind sharing the subjects they include in the entrance exam or concour?",
+            "do you know what subjects they expect you to know for the entrance exam or concour?",
+            "what kind of subjects do they test you on in the entrance exam or concour?"
+         ],
+         "responses": [
+            "The subjects covered in the entrance exam or concour can vary depending on the specific exam and the field of study it pertains to. It's recommended to refer to the official exam syllabus or information provided by the organizing body to determine the exact subjects that will be tested. Familiarize yourself with the syllabus and allocate your study time accordingly to ensure comprehensive preparation for all relevant topics."
+         ]
+      },
+      {
+         "tag": "entrance_exam_subject_discipline",
+         "patterns": [
+            "What are the subjects included in the entrance exam or concour?",
+            "Which academic disciplines are covered in the entrance exam or concour?",
+            "What specific areas of study are assessed in the entrance exam or concour?",
+            "Could you provide information on the subject matter that the entrance exam or concour focuses on?",
+            "What are the topics or fields of knowledge that the entrance exam or concour examines?",
+            "I'm curious to know the subjects that are part of the entrance exam or concour. Can you enlighten me?",
+            "What are the academic areas or domains that the entrance exam or concour encompasses?",
+            "Could you list the subject areas that are tested in the entrance exam or concour?",
+            "I'd like to inquire about the subjects that are included in the entrance exam or concour. Can you provide details"
+         ],
+         "responses": [
+            "The subjects covered in the entrance exam or concour can vary depending on the specific exam and the field of study it pertains to. It's recommended to refer to the official exam syllabus or information provided by the organizing body to determine the exact subjects that will be tested. Familiarize yourself with the syllabus and allocate your study time accordingly to ensure comprehensive preparation for all relevant topics."
+         ]
+      },
+      {
+         "tag": "entrance_exam_scoring",
+         "patterns": [
+            "Can you provide any guidance on the scoring system or evaluation process for the entrance exam or concour?",
+            "What is the scoring methodology or evaluation process used for the entrance exam or concour? Can you offer any guidance?",
+            "I'm seeking information about the scoring system or evaluation process employed in the entrance exam or concour. Any guidance would be appreciated.",
+            "Could you shed some light on how the entrance exam or concour is scored or evaluated? Any guidance you can provide?",
+            "I would like to understand the scoring system or evaluation process for the entrance exam or concour. Can you provide guidance on this?",
+            "What are the criteria and procedures used to score or evaluate the entrance exam or concour? Any guidance you can offer?",
+            "I'm curious about how the entrance exam or concour is scored or evaluated. Can you provide guidance on the scoring system or evaluation process?",
+            "What are the guidelines or methods used to score or evaluate the entrance exam or concour? Any guidance would be helpful.",
+            "I'd appreciate some guidance on understanding the scoring system or evaluation process for the entrance exam or concour. Can you provide any information?",
+            "Can you explain the scoring criteria or evaluation process for the entrance exam or concour? Any guidance you can provide?"
+         ],
+         "responses": [
+            "Unfortunately, I don't have access to the specific scoring system or evaluation process for the entrance exam or concour you are referring to. The evaluation methods can vary based on the exam and the institution conducting it. I recommend consulting the official exam documentation or contacting the organizing body to obtain accurate information about the scoring system and evaluation process. They will be able to provide you with the necessary details to understand how candidates are assessed in the exam."
+         ]
+      },
+      {
+         "tag": "IUC_schools",
+         "patterns": [
+            "How many schools does IUC have?",
+            "How many educational institutions are there within IUC?",
+            "How many schools are part of IUC?",
+            "How many schools does IUC have?"
+         ],
+         "responses": [
+            "IUC has 5 schools in total. Which are:<br/><ol><li><b>ISTDI (Institut Supérieur des Technologies et du Design Industriel)</b>:This is IUC's first and oldest school, focusing exclusively on industrial and technology subjects. <li><b>ICIA (Institut de Commerce et d'Ingénierie d'Affaires)</b>:ICIA is IUC's second school, and it is a center of excellence for business and management training, as well as prestigious management programs (Les Executive programs)</li> <li><b>3IAC (Institut d'Ingénierie Informatique d'Afrique Centrale)</b>:The third school in the cluster of excellence, this is the world of computer engineering, with partners including <b>PISTI (Programmes Internationaux des Sciences et Technologies de l'Innovation)</b> specialized in innovation technologies with international mobility. This school also has a department focused on health sciences.</li> <li><b>SEAS (School Of Engineering and Applied Sciences)</b>:SEAS is the school for English-language training in business technology and the sciences.</li> <li><b>PISTI (Programmes Internationaux des Sciences et Technologies de l'Innovation)</b>:PISTI is specialized in innovation technologies with international mobility and is part of the 3IAC school.",
+            "IUC consists of 5 educational institutions:<br/><ol><li><b>ISTDI (Institut Supérieur des Technologies et du Design Industriel)</b>:This is IUC's first and oldest school, focusing exclusively on industrial and technology subjects. <li><b>ICIA (Institut de Commerce et d'Ingénierie d'Affaires)</b>:ICIA is IUC's second school, and it is a center of excellence for business and management training, as well as prestigious management programs (Les Executive programs)</li> <li><b>3IAC (Institut d'Ingénierie Informatique d'Afrique Centrale)</b>:The third school in the cluster of excellence, this is the world of computer engineering, with partners including <b>PISTI (Programmes Internationaux des Sciences et Technologies de l'Innovation)</b> specialized in innovation technologies with international mobility. This school also has a department focused on health sciences.</li> <li><b>SEAS (School Of Engineering and Applied Sciences)</b>:SEAS is the school for English-language training in business technology and the sciences.</li> <li><b>PISTI (Programmes Internationaux des Sciences et Technologies de l'Innovation)</b>:PISTI is specialized in innovation technologies with international mobility and is part of the 3IAC school.",
+            "IUC comprises 5 schools:<br/><ol><li><b>ISTDI (Institut Supérieur des Technologies et du Design Industriel)</b>:This is IUC's first and oldest school, focusing exclusively on industrial and technology subjects. <li><b>ICIA (Institut de Commerce et d'Ingénierie d'Affaires)</b>:ICIA is IUC's second school, and it is a center of excellence for business and management training, as well as prestigious management programs (Les Executive programs)</li> <li><b>3IAC (Institut d'Ingénierie Informatique d'Afrique Centrale)</b>:The third school in the cluster of excellence, this is the world of computer engineering, with partners including <b>PISTI (Programmes Internationaux des Sciences et Technologies de l'Innovation)</b> specialized in innovation technologies with international mobility. This school also has a department focused on health sciences.</li> <li><b>SEAS (School Of Engineering and Applied Sciences)</b>:SEAS is the school for English-language training in business technology and the sciences.</li> <li><b>PISTI (Programmes Internationaux des Sciences et Technologies de l'Innovation)</b>:PISTI is specialized in innovation technologies with international mobility and is part of the 3IAC school."
+         ]
+      },
+      {
+         "tag": "IUC_contact",
+         "patterns": [
+            "How can I contact IUC?",
+            "How can I get in touch with IUC?",
+            "What are the contact details for IUC?",
+            "How can I communicate with IUC?"
+         ],
+         "responses": [
+            "You can contact IUC using the following details: <ul></li>Tel: (+237) 699 68 46 12 / 678 10 16 16</li> <li>Email: iuc@myiuc.com</li>",
+            "To get in touch with IUC, you can use the following contacts: <ul></li>Tel: (+237) 699 68 46 12 / 678 10 16 16</li> <li>Email: iuc@myiuc.com</li>",
+            "The contact details for IUC are as follows: <ul></li>Tel: (+237) 699 68 46 12 / 678 10 16 16</li> <li>Email: iuc@myiuc.com</li>",
+            "You can communicate with IUC using these contact details: <ul></li>Tel: (+237) 699 68 46 12 / 678 10 16 16</li> <li>Email: iuc@myiuc.com</li>"
+         ]
+      },
+      {
+         "tag": "about_SEAS",
+         "patterns": [
+            "I want to know more about SEAS.",
+            "Can you tell me more about SEAS",
+            "I wish to know more about SEAS",
+            "Give me more information about SEAS.",
+            "I would like to learn more about SEAS.",
+            "I'm looking for more information about SEAS"
+         ],
+         "responses": [
+            "Within the cluster of excellence, there is the School of Engineering and Applied Sciences (SEAS), which offers comprehensive and concise training in the fields of engineering, health, and management sciences. Enrollment in the career programs of this school is open to holders of GCE Advance Level / BAC, HND / BTS / Equivalence, or Bachelor / BAC+3 or Equivalence. Within SEAS, the following training cycles are available: <ul><li>Executive Programs/MBA</li> <li>Bachelor of Engineering</li> <li>Bachelor in Business & Management Sciences</li> <li>Bachelor of Health Science</li> <li>Bachelor of Technology / Licence Technologique</li> <li>HND Cycle in Commercial and Industrial Fields</li></ul>",
+            "Within the cluster of excellence, you will find the School of Engineering and Applied Sciences (SEAS), which offers comprehensive and concise training in the fields of engineering, health, and management sciences. To enroll in the career programs of this school, you need to have GCE Advance Level / BAC, HND / BTS / Equivalence, or Bachelor / BAC+3 or Equivalence. SEAS offers the following training cycles: <ul><li>Executive Programs/MBA</li> <li>Bachelor of Engineering</li> <li>Bachelor in Business & Management Sciences</li> <li>Bachelor of Health Science</li> <li>Bachelor of Technology / Licence Technologique</li> <li>HND Cycle in Commercial and Industrial Fields</li></ul>"
+         ]
+      },
+      {
+         "tag": "about_ISTDI",
+         "patterns": [
+            "I want to know more about ISTDI.",
+            "Can you tell me more about ISTDI?",
+            "Give me more information about ISTDI.",
+            "I wish to know more about ISTDI",
+            "I would like to learn more about ISTDI.",
+            "I'm looking for more information about ISTDI"
+         ],
+         "responses": [
+            "<h2>The Institut Supérieur de Technologies et du Design Industriel <b>(ISTDI)</b> is the first establishment of IUC </h2>. <p>This school serves as the hub for the Technological and Industrial field. It offers candidates holding a Baccalaureate (C, D, E, F, or BT) or any other recognized equivalent diploma the opportunity to pursue:</p> <ul><li>The Industrial and Technological BTS</li> <li>The Professional Bachelor's degree</li> <li>The Professional Master's degree</li></ul>",
+            "<h2>The Institut Supérieur de Technologies et du Design Industriel <b>(ISTDI)</b> is the first institution of IUC </h2>. This school serves as the central point for the Technological and Industrial field. It provides candidates with a Baccalaureate (C, D, E, F, or BT) or any other recognized equivalent diploma the opportunity to prepare for:</p> <ul><li>The Industrial and Technological BTS</li> <li> The Professional Bachelor's degree</li> <li> The Professional Master's degree</li></ul>",
+            "<h2>The Institut Supérieur de Technologies et du Design Industriel <b>(ISTDI)</b> is the first establishment of IUC </h2>. This school is the hub of the Technological and Industrial field. It provides candidates holding a Baccalaureate (C, D, E, F, or BT) or any other recognized equivalent diploma with the opportunity to prepare for:</p> <ul><li>The Industrial and Technological BTS </li> <li>The Professional Bachelor's degree</li> <li> The Professional Master's degree</li></ul>",
+            "<h2>The Institut Supérieur de Technologies et du Design Industriel <b>(ISTDI)</b> is the first institution of IUC </h2>. <p>This school plays a pivotal role in the Technological and Industrial universe. It offers candidates holding a Baccalaureate (C, D, E, F, or BT) or any other recognized equivalent diploma the opportunity to pursue:</p> <ul><li>The Industrial and Technological BTS</li> <li> he Professional Bachelor's degree</li> <li> The Professional Master's degree</li></ul>"
+         ]
+      },
+      {
+         "tag": "about_ICIA",
+         "patterns": [
+            "I want to know more about ICIA",
+            "Can you tell me more about ICIA?",
+            "I wish to know more about ICIA",
+            "Give me more information about ICIA.",
+            "I would like to learn more about ICIA.",
+            "I'm looking for more information about ICIA"
+         ],
+         "responses": [
+            "The Institut de Commerce et d'Ingénierie d'Affaires <b>(ICIA)</b> is the center for commerce and business management at IUC. Its mission is to train highly skilled salespeople, communicators, and managers who meet the expectations of the socio-professional environment. ICIA offers candidates holding a Baccalaureate (A, C, D, E, F, or BT) or any other recognized equivalent diploma the opportunity to prepare for:<ul><li> The Commercial and Business Management BTS</li> <li>The Professional Bachelor's degree</li> <li>The Professional Master's degree</li></ul>",
+            "The Institut de Commerce et d'Ingénierie d'Affaires <b>(ICIA)</b>  is the hub for commerce and business management at IUC. Its mission is to train highly competent salespeople, communicators, and managers who meet the expectations of the socio-professional environment. ICIA offers candidates with a Baccalaureate (A, C, D, E, F, or BT) or any other recognized equivalent diploma the opportunity to prepare for:<ul><li>The Commercial and Business Management BTS</li> <li>The Professional Bachelor's degree</li> <li>The Professional Master's degree</li></ul>",
+            "The Institut de Commerce et d'Ingénierie d'Affaires <b>(ICIA)</b>  is the center for commerce and business engineering at IUC. It aims to train highly competent salespeople, communicators, and managers who meet the expectations of the socio-professional environment. ICIA offers candidates holding a Baccalaureate (A, C, D, E, F, or BT) or any other recognized equivalent diploma the opportunity to prepare for:<ul><li>The Commercial and Business Management BTS</li> <li>The Professional Bachelor's degree</li> <li>The Professional Master's degree</li></ul>"
+         ]
+      },
+      {
+         "tag": "about_3IAC",
+         "patterns": [
+            "I want to know more about 3IAC",
+            "Can you tell me more about 3IAC?",
+            "Give me more information about 3IAC.",
+            "I would like to learn more about 3IAC.",
+            "I'm looking for more information about 3IAC"
+         ],
+         "responses": [
+            "The Institut d'Ingénierie Informatique d'Afrique Centrale <b>(3IAC)</b> is a school whose purpose is to prepare students for both engineering and master's degrees, based on the candidate's basic profile holding a baccalaureate in all specialties. As the choice of stream may vary depending on the nature of the baccalauréat, candidates have the option to obtain either an Engineer's or Master's degree in Computer Science, or, after 2 years of training, prepare for an industrial professional license in the fields of information and communication technologies (ICT).",
+            "The Institut d'Ingénierie Informatique d'Afrique Centrale <b>(3IAC)</b> is a school that prepares students for both engineering and master's degrees, based on the candidate's basic profile holding a baccalaureate in all specialties. As the choice of stream may vary depending on the nature of the baccalauréat, candidates have the option to obtain either an Engineer's or Master's degree in Computer Science, or, after 2 years of training, prepare for an industrial professional license in the fields of information and communication technologies (ICT)."
+         ]
+      },
+      {
+         "tag": "about_PISTI",
+         "patterns": [
+            "I want to know more about PISTI",
+            "Can you tell me more about PISTI?",
+            "Give me more information about PISTI.",
+            "I would like to learn more about PISTI.",
+            "I'm looking for more information about PISTI"
+         ],
+         "responses": [
+            "The PISTI (Programmes Internationaux des Sciences et Technologies de l'Innovation) is the newest addition to the IUC family. This department focuses on providing off-site training programs in Innovation Sciences and Technologies, leading to an engineering diploma. After 2 years of training, students holding a scientific Baccalauréat can pursue a Licence en Sciences et Techniques in the fields of chemistry, physics, and applied mathematics, which opens doors to Professional Master's programs or Engineering schools. <p>The PISTI department offers various training courses, including preparatory classes for entry into engineering schools, Health BTS, Architecture Engineering Cycle (ADI) with scholarship opportunities in Italy, the engineering cycle of the Polytech de France network, and the Agronomy Engineering Cycle.</p>",
+            "The PISTI (Programmes Internationaux des Sciences et Technologies de l'Innovation) is the latest addition to the IUC family. It specializes in offering off-site training programs in Innovation Sciences and Technologies, leading to an engineering diploma. Students with a scientific Baccalauréat can enroll in the program and, after 2 years of training, pursue a Licence en Sciences et Techniques in fields such as chemistry, physics, and applied mathematics. This degree provides opportunities to join Professional Master's programs or Engineering schools. <p>The PISTI department offers a range of training courses, including preparatory classes for engineering schools, Health BTS, Architecture Engineering Cycle (ADI) with scholarship opportunities in Italy, the engineering cycle of the Polytech de France network, and the Agronomy Engineering Cycle</p>",
+            "The PISTI (Programmes Internationaux des Sciences et Technologies de l'Innovation) is the newest department within the IUC family. It focuses on providing off-site training programs in Innovation Sciences and Technologies, leading to an engineering diploma. Students who have completed a scientific Baccalauréat can join the program and, after 2 years of training, pursue a Licence en Sciences et Techniques in fields such as chemistry, physics, and applied mathematics. This degree opens doors to Professional Master's programs or Engineering schools. <p>The PISTI department offers various training courses, including preparatory classes for engineering schools, Health BTS, Architecture Engineering Cycle (ADI) with scholarship opportunities in Italy, the engineering cycle of the Polytech de France network, and the Agronomy Engineering Cycle.</p>",
+            "The PISTI (Programmes Internationaux des Sciences et Technologies de l'Innovation) is the newest department at IUC. Its focus is on providing off-site training programs in Innovation Sciences and Technologies, leading to an engineering diploma. Students who have completed a scientific Baccalauréat can join the program and, after 2 years of training, pursue a Licence en Sciences et Techniques in fields such as chemistry, physics, and applied mathematics. This degree opens doors to Professional Master's programs or Engineering schools. <p>The PISTI department offers various training courses, including preparatory classes for engineering schools, Health BTS, Architecture Engineering Cycle (ADI) with scholarship opportunities in Italy, the engineering cycle of the Polytech de France network, and the Agronomy Engineering Cycle.</p>"
+         ]
+      },
+      {
+         "tag": "student_residences",
+         "patterns": [
+            "Does IUC have student residences?",
+            "Does IUC provide student hostels?",
+            "Are there hostels for students at IUC?",
+            "Are student hostels available at IUC?"
+         ],
+         "responses": [
+            "In order to facilitate the university integration of the many students living far from our campuses or outside the city of Douala, and those coming from other foreign countries, Institut Universitaire de la Côte has built student residences with over 400 modern rooms equipped with water and electricity: bed, table, wardrobe, chair.",
+            "To make it easier for students who live far from our campuses or do not reside in the city of Douala, as well as students coming from other countries, Institut Universitaire de la Côte has constructed student hostels with more than 400 modern rooms equipped with water and electricity: bed, table, wardrobe, chair.",
+            "With the aim of providing convenience for students residing far from our campuses or outside the city of Douala, and for students coming from other foreign countries, Institut Universitaire de la Côte has established student hostels with over 400 modern rooms equipped with water and electricity: bed, table, wardrobe, chair",
+            "To facilitate the accommodation of students who live far from our campuses or do not reside in the city of Douala, and for students coming from other countries, Institut Universitaire de la Côte has constructed student hostels with more than 400 modern rooms equipped with water and electricity: bed, table, wardrobe, chair."
+         ]
+      },
+      {
+         "tag": "ISTDI_programs",
+         "patterns": [
+            "What are the programs of study offered at ISTDI?",
+            "What courses are available at ISTDI?",
+            "Can you tell me about the study programs available at ISTDI?",
+            "What study options are available at ISTDI?",
+            "What are the study programs at ISTDI",
+            "Please tell me about the available study programs at ISTDI",
+            "What programs of study are available at ISTDI?",
+            "Can you tell me about the programs of studies offered by ISTDI?",
+            "Can you provide me with information about the programs of studies offered by ISTDI?"
+         ],
+         "responses": [
+            "At ISTDI, you can find a wide range of programs to choose from, including: <ul><li>LIPRO – Automotive Maintenance and Expertise</li> <li>LIPRO – Mechanical and Production Engineering</li> <li>LIPRO – Telecommunications and Networking Engineering</li> <li>LITECH – Electrical Engineering and Automation</li> <li>LITECH – Chemical Engineering</li> <li>LITECH – Thermal Engineering</li> <li>BTS – Electronic Systems Maintenance</li> <li>BTS – Automotive Maintenance and After-sales Service</li><li>BTS – Software Engineering </li><li>BTS – Electrotechnics</li> <li>BTS – Mechatronics </li><li>LITECH – Industrial Quality, Hygiene, and Safety (QHSE) </li><li>BTS – Telecommunications </li><li>M.PRO – Information Systems and Software Engineering </li><li>BTS – Networks and Security </li><li>M.PRO – Telecommunications Network </li><li>M.PRO – Industrial Quality, Hygiene, and Safety </li><li>LITECH – Mechatronics </li><li>BTS – Industrial and Production Maintenance </li><li>BTS – Computer Systems Maintenance </li>LIPRO - INDUSTRIAL SYSTEMS MAINTENANCE </li><li>BTS - BIOMEDICAL EQUIPMENT MAINTENANCE </li><li>LITECH - INSTRUMENTATION AND BIOMEDICAL MAINTENANCE </li><li>BTS - SANITARY INSTALLATION </li><li>BTS - INDUSTRIAL COMPUTING AND AUTOMATION </li><li>BTS - COMPUTER GRAPHICS AND WEB DESIGN </li><li>BTS - HYGIENE, SAFETY AND ENVIRONMENT </li><li>BTS - INFORMATION SYSTEMS MANAGEMENT </li><li>BTS - SOFTWARE ENGINEERING </li><li>LIPRO - SOFTWARE ENGINEERING </li><li>M.PRO - ELECTRICAL ENGINEERING AND INDUSTRIAL COMPUTING </li><li>BTS - CHEMICAL PROCESS ENGINEERING </li><li>LIPRO - ENERGY AND INDUSTRIAL ENGINEERING </li><li>BTS - REFRIGERATION AND AIR CONDITIONING </li><li>BTS - MECHANICAL MANUFACTURING </li><li>BTS - RENEWABLE ENERGY </li><li>LIPRO - ELECTRICAL ENGINEERING </li><li>BTS - ELECTRICAL ENGINEERING </li><li>BTS - E-COMMERCE AND DIGITAL MARKETING </li><li>LITECH - INDUSTRIAL CONSTRUCTION </li><li>BTS - BOILER MAKING AND WELDING </li><li>LIPRO - AUTOMATION AND INDUSTRIAL COMPUTING </li><li>LIPRO - NETWORK ADMINISTRATION AND SECURITY.</li></ul> These programs offer diverse opportunities for students to specialize in various fields of technology and engineering.",
+            "ISTDI provides a variety of courses for students to explore. Some of the courses offered include: <ul><li>LIPRO – Automotive Maintenance and Expertise</li> <li>LIPRO – Mechanical and Production Engineering</li> <li>LIPRO – Telecommunications and Networking Engineering</li> <li>LITECH – Electrical Engineering and Automation</li> <li>LITECH – Chemical Engineering</li> <li>LITECH – Thermal Engineering</li> <li>BTS – Electronic Systems Maintenance</li> <li>BTS – Automotive Maintenance and After-sales Service</li><li>BTS – Software Engineering </li><li>BTS – Electrotechnics</li> <li>BTS – Mechatronics </li><li>LITECH – Industrial Quality, Hygiene, and Safety (QHSE) </li><li>BTS – Telecommunications </li><li>M.PRO – Information Systems and Software Engineering </li><li>BTS – Networks and Security </li><li>M.PRO – Telecommunications Network </li><li>M.PRO – Industrial Quality, Hygiene, and Safety </li><li>LITECH – Mechatronics </li><li>BTS – Industrial and Production Maintenance </li><li>BTS – Computer Systems Maintenance </li>LIPRO - INDUSTRIAL SYSTEMS MAINTENANCE </li><li>BTS - BIOMEDICAL EQUIPMENT MAINTENANCE </li><li>LITECH - INSTRUMENTATION AND BIOMEDICAL MAINTENANCE </li><li>BTS - SANITARY INSTALLATION </li><li>BTS - INDUSTRIAL COMPUTING AND AUTOMATION </li><li>BTS - COMPUTER GRAPHICS AND WEB DESIGN </li><li>BTS - HYGIENE, SAFETY AND ENVIRONMENT </li><li>BTS - INFORMATION SYSTEMS MANAGEMENT </li><li>BTS - SOFTWARE ENGINEERING </li><li>LIPRO - SOFTWARE ENGINEERING </li><li>M.PRO - ELECTRICAL ENGINEERING AND INDUSTRIAL COMPUTING </li><li>BTS - CHEMICAL PROCESS ENGINEERING </li><li>LIPRO - ENERGY AND INDUSTRIAL ENGINEERING </li><li>BTS - REFRIGERATION AND AIR CONDITIONING </li><li>BTS - MECHANICAL MANUFACTURING </li><li>BTS - RENEWABLE ENERGY </li><li>LIPRO - ELECTRICAL ENGINEERING </li><li>BTS - ELECTRICAL ENGINEERING </li><li>BTS - E-COMMERCE AND DIGITAL MARKETING </li><li>LITECH - INDUSTRIAL CONSTRUCTION </li><li>BTS - BOILER MAKING AND WELDING </li><li>LIPRO - AUTOMATION AND INDUSTRIAL COMPUTING </li><li>LIPRO - NETWORK ADMINISTRATION AND SECURITY.</li></ul> These courses cover a wide range of subjects in the fields of technology and engineering, providing students with comprehensive knowledge and skills.",
+            "ISTDI offers a diverse selection of study programs for students to pursue. Some of the programs available include: <ul><li>LIPRO – Automotive Maintenance and Expertise </li> <li>LIPRO – Mechanical and Production Engineering </li> <li>LIPRO – Telecommunications and Networking Engineering </li> <li>LITECH – Electrical Engineering and Automation </li> <li>LITECH – Chemical Engineering </li> <li>LITECH – Thermal Engineering </li> <li>BTS – Electronic Systems Maintenance </li> <li>BTS – Automotive Maintenance and After-sales Service </li> <li>BTS – Software Engineering </li> <li>BTS – Electrotechnics </li> <li>BTS – Mechatronics </li> <li>LITECH – Industrial Quality, Hygiene, and Safety (QHSE) </li> <li>BTS – Telecommunications </li> <li>M.PRO – Information Systems and Software Engineering </li> <li>BTS – Networks and Security </li> <li>M.PRO – Telecommunications Network </li> <li>M.PRO – Industrial Quality, Hygiene, and Safety </li> <li>LITECH – Mechatronics </li> <li>BTS – Industrial and Production Maintenance </li> <li>BTS – Computer Systems Maintenance </li> <li>LIPRO - INDUSTRIAL SYSTEMS MAINTENANCE </li> <li>BTS - BIOMEDICAL EQUIPMENT MAINTENANCE </li> <li>LITECH - INSTRUMENTATION AND BIOMEDICAL MAINTENANCE </li> <li>BTS - SANITARY INSTALLATION </li> <li>BTS - INDUSTRIAL COMPUTING AND AUTOMATION </li> <li>BTS - COMPUTER GRAPHICS AND WEB DESIGN </li> <li>BTS - HYGIENE, SAFETY AND ENVIRONMENT </li> <li>BTS - INFORMATION SYSTEMS MANAGEMENT </li> <li>BTS - SOFTWARE ENGINEERING </li> <li>LIPRO - SOFTWARE ENGINEERING </li> <li>M.PRO - ELECTRICAL ENGINEERING AND INDUSTRIAL COMPUTING </li> <li>BTS - CHEMICAL PROCESS ENGINEERING </li> <li>LIPRO - ENERGY AND INDUSTRIAL ENGINEERING </li> <li>BTS - REFRIGERATION AND AIR CONDITIONING </li> <li>BTS - MECHANICAL MANUFACTURING </li> <li>BTS - RENEWABLE ENERGY </li> <li>LIPRO - ELECTRICAL ENGINEERING </li> <li>BTS - ELECTRICAL ENGINEERING </li> <li>BTS - E-COMMERCE AND DIGITAL MARKETING </li> <li>LITECH - INDUSTRIAL CONSTRUCTION </li> <li>BTS - BOILER MAKING AND WELDING </li> <li>LIPRO - AUTOMATION AND INDUSTRIAL COMPUTING </li> <li>LIPRO - NETWORK ADMINISTRATION AND SECURITY.</li><ul> These study programs cover a wide range of disciplines in the fields of technology and engineering, providing students with various opportunities for specialization and career development."
+         ]
+      },
+      {
+         "tag": "ICIA_programs",
+         "patterns": [
+            "What are the programs of study offered at ICIA?",
+            "What programs of study are available at ICIA?",
+            "What courses are available at ICIA?",
+            "Can you tell me about the study programs available at ICIA?",
+            "What study options are available at ICIA?",
+            "What are the study programs at ICIA?",
+            "Can you tell me about the programs of studies offered by ICIA?",
+            "Please tell me about the available study programs at ICIA",
+            "Can you provide me with information about the programs of studies offered by ICIA?"
+         ],
+         "responses": [
+            "ICIA offers a range of study programs for students. Here are some of the programs available: <ul><li>M.PRO - International Business Development Manager </li> <li>LIPRO - Banking and Finance </li> <li>BTS - Domestic Law </li> <li>BTS - Logistics and Transportation Management </li> <li>M.PRO - Executive Master in Engineering Finance </li> <li>M.PRO - Executive Master in Engineering Logistics </li> <li>M.PRO - Executive Master in General Engineering </li> <li>M.PRO - Executive Master in Business Administration </li> <li>M.PRO - Executive MBA in Global Entrepreneurship </li> <li>M.PRO - Executive MBA in Business Administration </li> <li>LIPRO - Transport and Logistics </li> <li>LIPRO - Science and Administrative Techniques </li> <li</li> <li>M.PRO - Quality Safety Environment </li> <li>LIPRO - Advertising </li> <li>LIPRO - Operational Marketing Manager </li> <li>M.PRO - Marketing and Communication of Organizations </li> <li>LIPRO - Marketing Commerce and Sales </li> <li>BTS - Marketing Commerce and Sales </li> <li>M.PRO - Marketing </li> <li>M.PRO - Management Logistics, Transport, and Customs Transit</li><ul>. These study programs cover various fields of study in business, finance, management, logistics, marketing, and more.",
+            "At ICIA, you can find the following programs of study: M.PRO - International Business Development Manager <ul><li>M.PRO - International Business Development Manager </li> <li>LIPRO - Banking and Finance </li> <li>BTS - Domestic Law </li> <li>BTS - Logistics and Transportation Management </li> <li>M.PRO - Executive Master in Engineering Finance </li> <li>M.PRO - Executive Master in Engineering Logistics </li> <li>M.PRO - Executive Master in General Engineering </li> <li>M.PRO - Executive Master in Business Administration </li> <li>M.PRO - Executive MBA in Global Entrepreneurship </li> <li>M.PRO - Executive MBA in Business Administration </li> <li>LIPRO - Transport and Logistics </li> <li>LIPRO - Science and Administrative Techniques </li> <li</li> <li>M.PRO - Quality Safety Environment </li> <li>LIPRO - Advertising </li> <li>LIPRO - Operational Marketing Manager </li> <li>M.PRO - Marketing and Communication of Organizations </li> <li>LIPRO - Marketing Commerce and Sales </li> <li>BTS - Marketing Commerce and Sales </li> <li>M.PRO - Marketing </li> <li>M.PRO - Management Logistics, Transport, and Customs Transit</li><ul> These courses cover various subjects in business, finance, management, logistics, marketing, and more."
+         ]
+      },
+      {
+         "tag": "3IAC_programs",
+         "patterns": [
+            "What are the programs of study offered at 3IAC?",
+            "What programs of study are available at 3IAC?",
+            "What courses are available at 3IAC?",
+            "Can you tell me about the study programs available at 3IAC?",
+            "What study options are available at 3IAC?",
+            "What are the study programs at 3IAC?",
+            "Can you tell me about the programs of studies offered by 3IAC?",
+            "Please tell me about the available study programs at 3IAC",
+            "Can you provide me with information about the programs of studies offered by 3IAC?"
+         ],
+         "responses": [
+            "At 3IAC, you can find the following programs of study: <ul><li>ING - 3IL-AC Engineering <li><li>PREPA - 3IL Computer Preparatory Class </li><li>M.PRO - Information Systems Design - Information Systems Management </li><li>M.PRO - Information Systems Design - Network Systems Management </li><li>DEC - Computer Technology - Networking and Information Security </li><li>DEC - Computer Technology - Programming and Mobile Applications</li></ul>",
+            "3IAC offers a range of study programs for students. Here are some of the programs available: <ul><li>ING - 3IL-AC Engineering <li><li>PREPA - 3IL Computer Preparatory Class </li><li>M.PRO - Information Systems Design - Information Systems Management </li><li>M.PRO - Information Systems Design - Network Systems Management </li><li>DEC - Computer Technology - Networking and Information Security </li><li>DEC - Computer Technology - Programming and Mobile Applications</li></ul>. These programs cover various aspects of engineering, computer science, information systems, and technology.",
+            "3IAC provides various courses for students. Here are some of the courses available: <ul><li>ING - 3IL-AC Engineering <li><li>PREPA - 3IL Computer Preparatory Class </li><li>M.PRO - Information Systems Design - Information Systems Management </li><li>M.PRO - Information Systems Design - Network Systems Management </li><li>DEC - Computer Technology - Networking and Information Security </li><li>DEC - Computer Technology - Programming and Mobile Applications</li></ul>. These courses focus on areas such as engineering, computer science, information systems design, networking, and programming.",
+            "At 3IAC, you can pursue one the following study programs: <ul><li>ING - 3IL-AC Engineering <li><li>PREPA - 3IL Computer Preparatory Class </li><li>M.PRO - Information Systems Design - Information Systems Management </li><li>M.PRO - Information Systems Design - Network Systems Management </li><li>DEC - Computer Technology - Networking and Information Security </li><li>DEC - Computer Technology - Programming and Mobile Applications</li></ul>. These programs offer specialized education in engineering, computer science, information systems, and technology."
+         ]
+      },
+      {
+         "tag": "PISTI_programs",
+         "patterns": [
+            "What are the programs of study offered at PISTI?",
+            "What programs of study are available at PISTI?",
+            "What courses are available at PISTI?",
+            "Can you tell me about the study programs available at PISTI?",
+            "What study options are available at PISTI?",
+            "What are the study programs at PISTI?",
+            "Please tell me about the available study programs at PISTI",
+            "Can you provide me with information about the programs of studies offered by PISTI?",
+            "Can you tell me about the programs of studies offered by PISTI?"
+         ],
+         "responses": [
+            "<ul><li>Biomedical Equipment Maintenance</li> <li>Biological and Biochemical Analysis</li> <li>ING - Aeronautical Sciences </li><li>LIPRO - Bachelor's Degree in Science and Technology - Mathematics</li> <li>LIPRO - Bachelor's Degree in Science and Technology - Physics</li> <li>LIPRO - Architecture and Industrial Design </li><li>ING - Engineers for the Earth </li><li>ING - Polytechnic School Pathway </li><li>ING - Biomedical Engineering </li><li>BTS - Physiotherapy </li><li>BTS - Midwifery </li><li>BTS - Laboratory Techniques </li><li>BTS - Radiology and Medical Imaging </li><li>BTS - Nursing Sciences</li></ul>",
+            "PISTI offers several programs of studies. Here are some of the available programs: <ul><li>Biomedical Equipment Maintenance</li> <li>Biological and Biochemical Analysis</li> <li>ING - Aeronautical Sciences </li><li>LIPRO - Bachelor's Degree in Science and Technology - Mathematics</li> <li>LIPRO - Bachelor's Degree in Science and Technology - Physics</li> <li>LIPRO - Architecture and Industrial Design </li><li>ING - Engineers for the Earth </li><li>ING - Polytechnic School Pathway </li><li>ING - Biomedical Engineering </li><li>BTS - Physiotherapy </li><li>BTS - Midwifery </li><li>BTS - Laboratory Techniques </li><li>BTS - Radiology and Medical Imaging </li><li>BTS - Nursing Sciences</li></ul>",
+            "At PISTI, you can study different courses. Here are some of the available courses: <ul><li>Biomedical Equipment Maintenance</li> <li>Biological and Biochemical Analysis</li> <li>ING - Aeronautical Sciences </li><li>LIPRO - Bachelor's Degree in Science and Technology - Mathematics</li> <li>LIPRO - Bachelor's Degree in Science and Technology - Physics</li> <li>LIPRO - Architecture and Industrial Design </li><li>ING - Engineers for the Earth </li><li>ING - Polytechnic School Pathway </li><li>ING - Biomedical Engineering </li><li>BTS - Physiotherapy </li><li>BTS - Midwifery </li><li>BTS - Laboratory Techniques </li><li>BTS - Radiology and Medical Imaging </li><li>BTS - Nursing Sciences</li></ul>. These courses cover fields such as biomedical equipment maintenance, biological and biochemical analysis, aeronautical sciences, mathematics, physics, architecture and industrial design, as well as areas related to environmental engineering and healthcare."
+         ]
+      },
+      {
+         "tag": "SEAS_programs",
+         "patterns": [
+            "What are the programs of study offered at SEAS?",
+            "What programs of study are available at SEAS?",
+            "What courses are available at SEAS?",
+            "Can you tell me about the study programs available at SEAS?",
+            "What study options are available at SEAS?",
+            "What are the study programs at SEAS?",
+            "Please tell me about the available study programs at SEAS",
+            "Can you provide me with information about the programs of studies offered by SEAS?",
+            "Can you tell me about the programs of studies offered by SEAS?"
+         ],
+         "responses": [
+            "<ul><li>Wood Engineering</li> <li>Civil Engineering</li> <li>Geomatics and Topography </li><li>M.Sc in Human Resource Management </li><li>M.Sc in Logistics & Supply Chain </li><li>M.Sc in Accounting and Finance </li><li>M.Sc in Financial Management </li><li>M.Eng in Mechanical Engineering </li>M.Eng in Civil Engineering </li><li>M.Eng in Computer Science & Engineering </li><li>M.Eng in Electrical & Electronics Engineering </li><li>BTS in Public Works</li> <li>Bachelor's Degree in Public Works</li> <li>BTS in Carpentry and Joinery </li><li>M.Pro in Civil Engineering </li><li>BTS in Construction </li><li>Bachelor's Degree in Construction</li></ul>",
+            "SEAS offers a variety of programs of studies, including: <ul><li>Wood Engineering</li> <li>Civil Engineering</li> <li>Geomatics and Topography </li><li>M.Sc in Human Resource Management </li><li>M.Sc in Logistics & Supply Chain </li><li>M.Sc in Accounting and Finance </li><li>M.Sc in Financial Management </li><li>M.Eng in Mechanical Engineering </li>M.Eng in Civil Engineering </li><li>M.Eng in Computer Science & Engineering </li><li>M.Eng in Electrical & Electronics Engineering </li><li>BTS in Public Works</li> <li>Bachelor's Degree in Public Works</li> <li>BTS in Carpentry and Joinery </li><li>M.Pro in Civil Engineering </li><li>BTS in Construction </li><li>Bachelor's Degree in Construction</li></ul>",
+            "SEAS offers a wide range of programs of studies, which include: <ul><li>Wood Engineering</li> <li>Civil Engineering</li> <li>Geomatics and Topography </li><li>M.Sc in Human Resource Management </li><li>M.Sc in Logistics & Supply Chain </li><li>M.Sc in Accounting and Finance </li><li>M.Sc in Financial Management </li><li>M.Eng in Mechanical Engineering </li>M.Eng in Civil Engineering </li><li>M.Eng in Computer Science & Engineering </li><li>M.Eng in Electrical & Electronics Engineering </li><li>BTS in Public Works</li> <li>Bachelor's Degree in Public Works</li> <li>BTS in Carpentry and Joinery </li><li>M.Pro in Civil Engineering </li><li>BTS in Construction </li><li>Bachelor's Degree in Construction</li></ul>. These programs provide students with opportunities to gain knowledge and skills in various fields, such as engineering, construction, geomatics, human resource management, logistics, and finance. They are designed to prepare students for successful careers in their respective fields of study."
+         ]
+      },
+      {
+         "tag": "chemical_eng",
+         "patterns": [
+            "What is the admission process for B.Eng in Chemical Engineering?",
+            "How can I apply for admission in B.Eng - Chemical Engineering?",
+            "What are the requirements for admission into B.Eng - Chemical Engineering?",
+            "How do I submit my application for B.Eng - Chemical Engineering?",
+            "What are the admission criteria for B.Eng - Chemical Engineering?"
+         ],
+         "responses": [
+            "To enroll in Chemical Engineering, you need the following documents:<ul><li>A handwritten application addressed to the Director.</li> <li>A certified true copy of the Birth certificate.</li> <li>A certified true copy of the Advanced Level Certificate / Result Slip or school Attendance Attestation for candidates awaiting GCE Advanced level results.</li> <li>02 passport-size photographs.</li> <li>An A4 envelope with a postal stamp carrying the candidate's address.</li> <li>An application form available at the institution or on the website (www.myiuc.com).</li> <li>A medical fee of 5000 Fcfa to be paid after admission and during registration.</li> <li>Application fee: 25,000 Frs.</li></ul>When the file is complete, drop it off at one of the IUC offices.",
+            "If you wish to apply for admission in B.Eng - Chemical Engineering, make sure to follow the steps below:. <ul><li>A handwritten application addressed to the Director.</li> <li>A certified true copy of the Birth certificate.</li> <li>A certified true copy of the Advanced Level Certificate / Result Slip or school Attendance Attestation for candidates awaiting GCE Advanced level results.</li> <li>02 passport-size photographs.</li> <li>An A4 envelope with a postal stamp carrying the candidate's address.</li> <li>An application form available at the institution or on the website (www.myiuc.com).</li> <li>A medical fee of 5000 Fcfa to be paid after admission and during registration.</li> <li>Application fee: 25,000 Frs.</li></ul> Once you have completed your file, drop it off at one of the IUC offices.",
+            "To apply for admission in B.Eng - Chemical Engineering, you need to provide the following documents:<ul><li>A handwritten application addressed to the Director.</li> <li>A certified true copy of the Birth certificate.</li> <li>A certified true copy of the Advanced Level Certificate / Result Slip or school Attendance Attestation for candidates awaiting GCE Advanced level results.</li> <li>02 passport-size photographs.</li> <li>An A4 envelope with a postal stamp carrying the candidate's address.</li> <li>An application form available at the institution or on the website (www.myiuc.com).</li> <li>A medical fee of 5000 Fcfa to be paid after admission and during registration.</li> <li>Application fee: 25,000 Frs.</li></ul> Once you have gathered all these documents, drop off your file at one of the IUC offices."
+         ]
+      },
+      {
+         "tag": "b_eng",
+         "patterns": [
+            "What is the process to enroll in a Bachelor program at IUC?",
+            "How can I apply for admission in a Bachelor program at IUC?",
+            "What are the admission criteria for Bachelor programs at IUC?"
+         ],
+         "responses": [
+            "To enroll in a Bachelor program at IUC, you need to follow these steps: <ul>Prepare the necessary documents: <li>Write a hand-written application addressed to the Director.</li> <li>Obtain a certified true copy of your Birth certificate.</li> <li>Obtain a certified true copy of your Advanced Level Certificate/Result Slip, or provide a school Attendance Attestation if you are awaiting GCE Advanced level results.</li> <li>Prepare 2 passport-size photographs</li> <li>Get an A4 envelope with a postal stamp that carries your address.</li> <li>Fill out the application form, which is available at the institution or on their website (www.myiuc.com).</li> <li>Be prepared to pay a medical fee of 5000 Fcfa after admission and during registration.</li> <li>Pay an application fee of 25,000 Frs.</li></ul> <ul>Arrange for the payment of school fees: <li>The registration fee is 150,000 Frs</li> <li>For national students, the school fees amount to 650,000 Frs.</li> <li>For foreign students, the school fees amount to 750,000 Frs</li> <li>Additionally, there is a medical fee of 5,000 Frs.</li></ul> Please ensure that you have all the required documents and fees ready before proceeding with the enrollment process at IUC.",
+            "To apply for admission in a Bachelor program at IUC, follow these guidelines: Write a hand-written application addressed to the Director expressing your interest in the program. Gather the necessary documents: .Obtain a certified true copy of your Birth certificate. .Obtain a certified true copy of your Advanced Level Certificate/Result Slip. If you are awaiting GCE Advanced level results, provide a school Attendance Attestation. .Prepare 2 passport-size photographs. .Get an A4 envelope with a postal stamp that carries your address. .Fill out the application form, which can be found at the institution or downloaded from their website (www.myiuc.com). Be aware of the financial requirements: .There is an application fee of 25,000 Frs. .After admission and during registration, a medical fee of 5000 Fcfa will need to be paid. Ensure that you have all the necessary documents and fees ready, and submit your application to the appropriate office at IUC.",
+            "The admission criteria for Bachelor programs at IUC include the following: Submitting a hand-written application addressed to the Director, expressing your desire to enroll in the program. Providing the required documents: .A certified true copy of your Birth certificate. .A certified true copy of your Advanced Level Certificate/Result Slip. If you are awaiting GCE Advanced level results, a school Attendance Attestation will be necessary. .2 passport-size photographs. .An A4 envelope with a postal stamp that carries your address. .Completing the application form, available at the institution or on their website (www.myiuc.com). Meeting the financial obligations: .An application fee of 25,000 Frs is required. .After admission and during registration, a medical fee of 5000 Fcfa must be paid. Make sure you fulfill all the admission criteria, gather the necessary documents, and submit your application to the designated office at IUC."
+         ]
+      },
+      {
+         "tag": "HND_program",
+         "patterns": [
+            "What is the process to enroll in a Bachelor program at IUC?",
+            "What are the admission requirements and the enrollment process for HND programs at IUC?",
+            "How can I apply for admission and enroll in an HND program at IUC?"
+         ],
+         "responses": [
+            "To enroll in an HND program at IUC, you will need to follow the admission process and meet the following requirements: <p>ADMISSION REQUIREMENTS:</p> <ul><li>Submit a handwritten application addressed to the Director.</li> <li>Provide a certified true copy of your birth certificate.</li> <li>Submit a certified true copy of your Advanced Level Certificate/Result Slip or a school Attendance Attestation if you are awaiting GCE Advanced level results.</li> <li>Provide 02 passport-size photographs.</li> <li>Prepare an A4 envelope with a postal stamp that carries your address.</li> <li>Fill out an application form, which is available at the institution or on the website (www.myiuc.com).</li> <li>Pay a medical fee of 5000 Fcfa after admission and during registration</li> <ul><li>Application fee: 10,000 Frs.</li> <li>for nationals, 25,000 Frs.</li> <li>for foreigners.<li></ul> <ul>SCHOOL FEES: <li>Registration fee: 100,000 Frs</li> <li>School fees for national students 250,000 Frs.</li> <li>School fees for foreign students: 350,000 Frs.</li> <li>Medical fee: 5,000 Frs.</li></ul></ul> Make sure to complete the necessary documents and fees before proceeding with the enrollment process at IUC.",
+            "To enroll in an HND program at IUC, you must fulfill the admission requirements and follow the enrollment process outlined below: <p>ADMISSION REQUIREMENTS:</p> <ul><li>Submit a handwritten application addressed to the Director.</li> <li>Provide a certified true copy of your birth certificate.</li> <li>Submit a certified true copy of your Advanced Level Certificate/Result Slip or a school Attendance Attestation if you are awaiting GCE Advanced level results.</li> <li>Provide 02 passport-size photographs.</li> <li>Prepare an A4 envelope with a postal stamp that carries your address.</li> <li>Fill out an application form, which is available at the institution or on the website (www.myiuc.com).</li> <li>Pay a medical fee of 5000 Fcfa after admission and during registration</li> <ul><li>Application fee: 10,000 Frs.</li> <li>for nationals, 25,000 Frs.</li> <li>for foreigners.<li></ul> <ul>SCHOOL FEES: <li>Registration fee: 100,000 Frs</li> <li>School fees for national students 250,000 Frs.</li> <li>School fees for foreign students: 350,000 Frs.</li> <li>Medical fee: 5,000 Frs.</li></ul></ul>  Ensure that you have all the necessary documents and fees ready before proceeding with the enrollment process at IUC.",
+            "To apply for admission and enroll in an HND program at IUC, you should follow the steps outlined below: <p>ADMISSION REQUIREMENTS:</p> <ul><li>Write a handwritten application addressed to the Director expressing your interest in the HND program.</li> <li>Provide a certified true copy of your birth certificate.</li> <li>Submit a certified true copy of your Advanced Level Certificate/Result Slip or a school Attendance Attestation if you are awaiting GCE Advanced level results.</li> <li><Prepare 02 passport-size photographs.</li> <li>Get an A4 envelope with a postal stamp that carries your address.<li> <li>Fill out the application form, available at the institution or on the website (www.myiuc.com)</li></ul> <ul>ENROLLMENT PROCESS: <li>Collect all the required documents and complete the application form.</li> <li>Submit your application to the appropriate office, along with the necessary fees</li> <li>Once admitted, you will be required to pay the medical fee during the registration process</li> <li>Complete the enrollment process by paying the registration fee and the applicable school fees</li> </ul> Make sure to gather all the necessary documents and fees, and submit your application to the designated office for admission and enrollment in the HND program at IUC."
+         ]
+      }
+   ]
+}
